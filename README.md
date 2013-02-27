@@ -3,7 +3,7 @@ maven-nailgun
 
 like [mvnsh](https://github.com/jdillon/mvnsh), using [nailgun](http://martiansoftware.com/nailgun/)
 
-without any serious benchmarking, they seem to offer comparable speedup
+without any serious benchmarking, they seem to offer comparable speedup. trivial apps will save a second or two of jvm startup, but larger ones will see that gain erased by memory lost to leaked classloaders.
 
 using it:
 ---------
