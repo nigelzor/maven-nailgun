@@ -9,11 +9,7 @@ import com.martiansoftware.nailgun.NGServer;
 
 public class Server {
 
-	static ClassWorld classWorld;
-
 	public static void main(String[] args, ClassWorld classWorld) throws Exception {
-		Server.classWorld = classWorld;
-
 		// bah, this should just be a call to NGServer.main(), but plexus doesn't want us to just return
 		if (args.length > 1) {
 			System.err.println("only expecting one arg: port");
@@ -49,4 +45,5 @@ public class Server {
 		// wait until someone tells us to die
 		t.join();
 	}
+
 }
