@@ -1,6 +1,10 @@
 maven-nailgun
 =============
 
+like [mvnsh](https://github.com/jdillon/mvnsh), using [nailgun](http://martiansoftware.com/nailgun/)
+
+without any serious benchmarking, they seem to offer comparable speedup
+
 using it:
 ---------
 * copy nailgun-server-0.9.1.jar and maven-nailgun-1.0-SNAPSHOT.jar into maven's /lib/ext/
