@@ -11,5 +11,6 @@ using it:
 * in maven's /bin/, make copies of `mvn` and `m2.conf` (`mvn-ng-server` and `m2-ng.conf`)
 * in `mvn-ng-server` change `"-Dclassworlds.conf=${M2_HOME}/bin/m2.conf"` to `"-Dclassworlds.conf=${M2_HOME}/bin/m2-ng.conf"`
 * in `m2-ng.conf` change `org.apache.maven.cli.MavenCli` to `com.github.nigelzor.maven.nailgun.Server`
+* start the server with `mvn-ng-server localhost:2113`
 * whenever you would call `mvn foo`, now use `ng com.github.nigelzor.maven.nailgun.Client foo`
 
