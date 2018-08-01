@@ -1,4 +1,4 @@
-maven-nailgun
+maven-nailgun [![Build Status](https://travis-ci.org/nigelzor/maven-nailgun.svg?branch=master)](https://travis-ci.org/nigelzor/maven-nailgun)
 =============
 
 like [mvnsh](https://github.com/jdillon/mvnsh), using [nailgun](http://martiansoftware.com/nailgun/)
