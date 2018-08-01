@@ -43,7 +43,7 @@ public class Server {
 			}
 		}
 
-		NGServer server = new NGServer(serverAddress, port, NGServer.DEFAULT_SESSIONPOOLSIZE);
+		NGServer server = new NGServer();
 		Thread t = new Thread(server);
 		t.setName("NGServer(" + serverAddress + ", " + port + ")");
 		t.start();
